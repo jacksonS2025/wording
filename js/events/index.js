@@ -12,6 +12,8 @@ function buildWord(event) {
 
     letterTile.appendChild(letterTileText)
     document.querySelector('body').appendChild(letterTile)
+    console.log('Finished creating tiles')
+    console.log(letterTile)
 }
 
 export function startListening() {
