@@ -11,7 +11,7 @@ function buildWord(event) {
     letterTileText.innerText = event.key;
 
     letterTile.appendChild(letterTileText)
-    document.body.appendChild(letterTile)
+    document.querySelector('body').appendChild(letterTile)
 }
 
 export function startListening() {
