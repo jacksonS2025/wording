@@ -19,6 +19,7 @@ function buildWord(event) {
         block: 'center',
         inline: 'center'
     });
+    console.log('Scrolled into view')
 }
 
 export function startListening() {
