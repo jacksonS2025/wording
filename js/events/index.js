@@ -1,4 +1,4 @@
-import { verifyStarted } from "./verify"
+import { verifyStarted } from "./verify.js"
 
 function buildWord(event) {
     console.log(verifyStarted())
